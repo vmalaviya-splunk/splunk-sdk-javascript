@@ -36,7 +36,9 @@ jobs:
       
       # Runs a docker-compose.yml
       - name: Run make up
-        run: docker-compose up -d
+        run: |
+          ls -al
+          docker-compose up -d
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
