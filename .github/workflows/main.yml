@@ -8,7 +8,7 @@ on:
   push:
     branches:
       - master
-      - DVPL-9114
+      - 'DVPL-9114'
   pull_request:
     branches:
       - master
